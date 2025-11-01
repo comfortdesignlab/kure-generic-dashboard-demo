@@ -14,7 +14,7 @@
 Pythonの標準機能であるサーバ起動機能を一時的に使用する
 
 ポイント：ブラウザのセキュリティをためサーバを起動しているが、Google Chromeなどの場合拡張機能で一時的にセキュリティ機能を避けることができる   
-個人の裁量で拡張機能を使用することを薦める  
+自己責任で拡張機能を使用することを薦める  
 拡張機能：https://chromewebstore.google.com/detail/moesif-origincors-changer/digfbfaphojjndkpccljibejjbppifbc?hl=ja&pli=1  
 拡張機能でEnable CORSを使用している時はブラウザでindex.htmlを直接開いてもAPIが利用できる
 
@@ -39,6 +39,10 @@ Pythonの標準機能であるサーバ起動機能を一時的に使用する
 - **ベースURL**: `https://api.expolis.cloud/opendata/t/kure/v1`
 - **エンドポイント**: `/generic-drug?year_month=YYYY-MM`
 - **認証**: `ecp-api-token` ヘッダーにアクセストークンを設定
+
+## ブラウザ対応
+
+- Chrome（推奨）
 
 ## トラブルシュート
 1. OSError: [Errno 48] Address already in use  
